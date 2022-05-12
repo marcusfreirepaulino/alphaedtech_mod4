@@ -1,0 +1,16 @@
+h1{
+    color:pink
+}
+button:hover{
+    color:yellow
+}
+.texto::first-letter{
+    font-weight: bolder;
+}
+#botão{
+display: flex;
+justify-content: end;
+}
+section > pre {
+    background-color: aliceblue;
+}
