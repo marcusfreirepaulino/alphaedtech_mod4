@@ -1,0 +1,52 @@
+body{
+
+}
+header{
+    width: 150px;
+    height: 150px;
+    border: solid purple 5px;
+    margin: 15px 50px 15px;
+    padding: 1px;
+
+}
+h1{
+    display:inline;
+}
+#overflows{
+    display: flex;
+    margin: 15px 50px 15px;
+    align-items: center;
+    justify-content: space-between;
+ 
+
+}
+#first-ofl{
+    height: 150px;
+    width: 150px;
+    border: solid 3px greenyellow ;
+    border-style: dotted;
+    overflow-y:scroll;
+}
+#second-ofl{
+    height: 150px;
+    width:150px;
+    border: solid 3px royalblue ;
+    border-radius: 50%;
+    border-style: double;
+    overflow: hidden;
+}
+#third-ofl{
+    height: 35px;
+    width: 35px;
+    border: solid 10px black;
+    overflow:visible;
+
+
+}
+#fourth-ofl{
+    height: 100px;
+    width: 100px;
+    border: solid 3px red;
+    overflow: auto;
+
+}
