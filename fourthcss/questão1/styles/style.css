@@ -1,0 +1,31 @@
+body{
+    background-color: antiquewhite;
+
+}
+header{
+    width: 750px;
+    height: fit-content;
+    background-color: pink;
+    opacity: 0.8;
+    padding: 5px 5px;
+}
+h1{
+    opacity: 1.0;
+}
+main{
+    width:750px;
+    padding: 0px 5px;
+    background-image: linear-gradient(rgb(247, 146, 163), rgb(255, 0, 212))
+}
+#ImageBlock{
+    background-image: url(/fourthcss/questão1/assets/pink.jpg);
+    height:533px;
+    width:800px;
+    margin-bottom: 50px;
+
+}
+#SecondImageBlock{
+    background-image: url(/fourthcss/questão1/assets/pink.jpg) ;
+    height:1400px;
+    width:800px;
+}

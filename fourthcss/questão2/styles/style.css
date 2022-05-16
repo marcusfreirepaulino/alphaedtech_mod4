@@ -1,0 +1,24 @@
+@font-face {
+    font-family: BOOTLE;
+    src: url(/fourthcss/questão2/assets/fonts/Bootle-4B9l.ttf);
+}
+header{
+    display: flex;
+    justify-content: center;
+    font-family: BOOTLE;
+    font-size: xx-large;
+    border: solid black 3px;
+
+}
+#MembersImages{
+    display:flex;
+    justify-content: space-between;
+    border: dashed grey 3px;
+    padding: 5px 5px;
+}
+.Members{
+    border-radius: 50%;
+    border: double black 7px;
+    height: 250px;
+    width: 250x;
+}
