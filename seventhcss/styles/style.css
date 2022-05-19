@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .wrapper {
+    height: 100vh;
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+  }
+  
+  .section {
+    scroll-snap-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #de5448;
+    color: #fff;
+    font-size: 3em;
+  }
+  
+  .bg2 {
+    background: #4267b2;
+  }
+  
+  .bg3 {
+    background: rgb(200, 200, 145);
+  }
+
+  .bg4{
+      background: rgba(212, 145, 91, 0.5);
+  }
+
+  .bg5{
+      background: hsl(120, 100%, 50%);
+  }
+
+  .bg6{
+      background: hsla(54, 100%, 81%, 0.6);
+  }
+
+  .bg7{
+    background-color: deeppink;
+  }
+
+  .bg8{
+      background: currentColor;
+  }
